@@ -6,17 +6,17 @@
       <div>
         <img :src="location" alt="location" class="object-cover " />
       </div>
-      <p>Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.<br/>
+      <p class=" text-white hover:text-purple-600 cursor-pointer">Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.<br/>
       Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</p>
     </div>
      <div>
        <div class="flex items-center justify-between gap-4" >
          <img :src="telephone" alt="telephone" class="object-cover " />
-         <span>+998 99 999 99 99</span>
+         <a href="tel:+998999999999" class=" text-white hover:text-purple-600 cursor-pointer">+998 99 999 99 99</a>
        </div>
        <div class="flex items-center justify-between gap-4" >
          <img :src="telephone" alt="telephone" class="object-cover " />
-         <span>+998 99 999 99 99</span>
+         <a href="tel:+998999999999" class=" text-white hover:text-purple-600 cursor-pointer">+998 99 999 99 99</a>
        </div>
      </div>
     <div class="flex items-center justify-between gap-4" >
