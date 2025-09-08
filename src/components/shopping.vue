@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-        <p class="text-sm text-gray-500 mt-2">{{ product.category }}</p>
+        <p  class="text-sm text-gray-500 mt-2">{{ product.category }}</p>
         <div class="flex items-center justify-between mt-1">
           <span class="font-semibold">{{ product.name }}</span>
           <span class="font-semibold">${{ product.price * product.quantity }}</span>
@@ -47,5 +47,6 @@ let products = ref([
   { name: "T-shirt Black", category: "Clothing", price: 99, size: "L", quantity: 1, image: shirt2, refresh, heartClicked: false },
   { name: "T-shirt Black", category: "Clothing", price: 120, size: "L", quantity: 1, image: shirt3, refresh, heartClicked: false }
 ]);
+
 
 </script>

@@ -1,6 +1,6 @@
 <template>
-
 <shopping></shopping>
+
 </template>
 
 
